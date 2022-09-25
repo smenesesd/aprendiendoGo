@@ -28,3 +28,9 @@ De acuerdo con el código del ejemplo:
 	//la condicion sea cierta
 }
  ```
+ Por ejemplo: 
+ - Ver codigo
+ ```sh
+ for_condicion.go
+ ```
+ 
