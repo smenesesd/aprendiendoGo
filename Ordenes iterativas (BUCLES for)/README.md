@@ -21,3 +21,11 @@ De acuerdo con el código del ejemplo:
  - Si el usuario introduce ‘N’ o ‘n’, se ejecutara la instruccion continue, por lo que la ejecuccion volvera al inicio del for.
  - Si el usuario introduce ‘S’ o ‘s’, se ejecutara la instruccion break, por lo que el for finaliza y la ejecuccion continua por el mensaje adios!
  - Solo en el caso de que el usuario introdujera cualquier otro caracter, se mostraria el mensaje caracter no reconocido.
+
+ Las ordenes break y continue son totalmente validas y aceptadas en las convenciones sobre estilo de Go. Sin embargo, a menudo resulta mas limpia y util la forma condicional de for:
+ ```sh
+ for <condicion>{
+	//Instrucciones a ejecutar mientras 
+	//la condicion sea cierta
+}
+ ```
