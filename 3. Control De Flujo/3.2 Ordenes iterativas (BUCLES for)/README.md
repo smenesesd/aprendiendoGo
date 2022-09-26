@@ -1,5 +1,5 @@
 Un bucle es un conjunto de ordenes que se repite. El bucle más sencillo que Go permite especificar es:
-```ss
+```go
 for {
 	//Instrucciones a repetir
 }
@@ -22,7 +22,7 @@ De acuerdo con el código del ejemplo:
  - Solo en el caso de que el usuario introdujera cualquier otro caracter, se mostraria el mensaje caracter no reconocido.
 
  Las ordenes break y continue son totalmente validas y aceptadas en las convenciones sobre estilo de Go. Sin embargo, a menudo resulta mas limpia y util la forma condicional de for:
- ```sh
+ ```go
  for <condicion>{
 	//Instrucciones a ejecutar mientras 
 	//la condicion sea cierta
@@ -40,7 +40,7 @@ De acuerdo con el código del ejemplo:
 
  Hay una tercera forma de describir un for; lo más similar al bucle for de los demas lenguajes:
 
- ```sh
+ ```go
  for <inicio>; <condicion>; <actualizacion>{
     //Ordenes que se ejecutaran mientras la condicion
     //sea cierta
@@ -52,7 +52,7 @@ De acuerdo con el código del ejemplo:
  2. Antes de cada iteracion, se comprobara si la condicion es cierta; en caso de que no lo sea, el bucle acabará.
  3. Despues de cada iteracion, antes de volver a comprobar si la condicion sigue siendo cierta, se ejecutará la orden de actualizacion. Por ejemplo, el siguiente bucle for mostrara una cuenta del 1 al 10:
  
- ```sh
+ ```go
  for i := 1; i <= 10; i++{
     fmt.Println(i)
  }
