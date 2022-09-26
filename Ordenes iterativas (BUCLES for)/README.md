@@ -33,4 +33,32 @@ De acuerdo con el código del ejemplo:
  ```sh
  for_condicion.go
  ```
+
+ - El programa anterior repetirá el código dentro del bucle mientras el usuario no introduzca 'S' ni 's'.
+
+ Si usted esta familiarizado con otros lenguajes de programacion, se habra dado cuenta de que esta forma de for "condicional" suele llamarse while en otros lenguajes.
+
+ Hay una tercera forma de describir un for; lo más similar al bucle for de los demas lenguajes:
+
+ ```sh
+ for <inicio>; <condicion>; <actualizacion>{
+    //Ordenes que se ejecutaran mientras la condicion
+    //sea cierta
+ }
+ ```
+
+ Este tipo de for: 
+ 1. Ejecuta la roden de inicio una sola vez, antes de ejecutar la primera iteración.
+ 2. Antes de cada iteracion, se comprobara si la condicion es cierta; en caso de que no lo sea, el bucle acabará.
+ 3. Despues de cada iteracion, antes de volver a comprobar si la condicion sigue siendo cierta, se ejecutará la orden de actualizacion. Por ejemplo, el siguiente bucle for mostrara una cuenta del 1 al 10:
  
+ ```sh
+ for i := 1; i <= 10; i++{
+    fmt.Println(i)
+ }
+ ``` 
+
+ 4. La variable i se inicia al valor 1 (observe que el alcance de esta se limita al bucle)
+ 5. Se muestra el valor de la variable i.
+ 6. Se incrementa la variable i.
+ 7. Se comprueba si el valor de i es menor o igual que 10. Si es el caso, se vuelve al paso 2. Si no es el caso, se sale del bucle for.
