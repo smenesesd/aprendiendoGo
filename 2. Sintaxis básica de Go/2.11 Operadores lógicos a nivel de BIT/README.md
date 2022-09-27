@@ -7,5 +7,6 @@ Or      | OR. Resulta 1 cuando al menos uno de los bits es 1            | 0b_101
 ^(unario)| NOT. Cuando se aplica delante de un solo operador, invierte el valor de cada dígito |^0b_100110 == 0b_011001         
 << | Desplazamiento a la izquierda. Desplaza cada bit del operador izquierdo tantas posiciones como el numero del operador derecho. Los espacios libres a la derecha se rellenan de ceros | 0b_1001 << 2 == 0b_100100
 ">>" | Desplazamiento a la derecha. Desplaza cada bit del operador izquierdo tantas posiciones como el numero del operador derecho. Los bits mas a la derecha son eliminados | 0b_1001 >> 2 == 0b_0010  
+
 Or: || 
       
