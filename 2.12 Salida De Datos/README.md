@@ -30,4 +30,4 @@ Salida estandar:
 ```go
 Coordenadas de deposito: (36, 84)
 ```
-fmt.Printf no añade ninguna nueva linea al final, por lo que si necesita que el siguiente texto aparezca en la linea siguiente, debe finalizar la cadena de formato de caracter especial de nueva linea: ‘\n’
+fmt.Printf no añade ninguna nueva linea al final, por lo que si necesita que el siguiente texto aparezca en la linea siguiente, debe finalizar la cadena de formato de caracter especial de nueva linea: '\n'
