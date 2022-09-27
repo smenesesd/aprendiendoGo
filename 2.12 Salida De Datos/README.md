@@ -31,3 +31,18 @@ Salida estandar:
 Coordenadas de deposito: (36, 84)
 ```
 fmt.Printf no añade ninguna nueva linea al final, por lo que si necesita que el siguiente texto aparezca en la linea siguiente, debe finalizar la cadena de formato de caracter especial de nueva linea: '\n'
+
+Verbo | Descripción
+----- | ---
+%v    | Valor en el formato por defecto (Tal como se mostraria en fmt.Print)
+%T    | Tipo de dato
+%d    | Valor numerico en base decimal
+%b    | Valor numerico en base binaria
+%o    | Valor numerico en base octal
+%x    | Valor numerico en base hexadecimal (con letras a-f en minusculas)
+%X    | Valor numerico en base hexadecimal (con letras A-F en mayusculas)
+%e    | Notacion cientifica (Ej: -1.234e+10)
+%f    | Numero en coma flotante, sin exponente(Ej: -13.34)
+%c    | Un caracter individual
+%s    | Cadena de texto
+%q    | Cadena de texto delimitada por comillas dobles, con todos los caracteres especiales substituidos por marcas de Go (Ej: en vez de mostrar un salto de linea, mostrar \n)
