@@ -1,0 +1,13 @@
+- Una variable es un espacio reservado en la memoria del ordenador para guardar datos cuyo valor puede cambiar durante la vida del programa: un numero, una letra. Una variable ira asociada a un nombre para poder referirnos a ella durante el programa: matricula, total, jugador1…
+- Go es un lenguaje con tipado estatico, lo que significa que cada variable tiene un tipo de dato asociado y solo podra guardar valores de su tipo de dato.
+- bool es el tipo booleano. Los posibles valores que puede tomar son dos: true o false.
+- string permite guardar cadenas de texto, y acepta cualquier caracter Unicode mediante la codificacion UTF-8(Es decir, todos los caracteres del alfabeto latino, mas caracteres de otras culturas, incluso emojis)
+- int es un numero entero con digno(es decir, permite guardar tanto numeros enteros positivos como negativos). Su tamaño depende de la plataforma para la cual se compila el programa. Esto significa que el compilador escogera el tamaño de las variables int que mejor se adapten a la arquitectura del procesador para el cual se compila(generalmente concuerda con el numero de bits del procesador: 32 o 64)
+    - Cuando sea necesario concretar con exactitud el tamaño de una variable, se puede usar los siguientes tipos: int8, int16, int32, int64 para numeros enteros con signo de 8,16,32 y 64 bits, respectivamente.
+- uint es un numero entero sin signo (es decir, no acepta numeros negativos). Al igual que int, su tamaño dependera de la plataforma)
+    - Cuando se requiera concretar con exactitud el tamaño de una variable, se puede usar los siguientes tipos: uint8, uint16 y asi sucesivamente.
+- byte equivale de uint8
+- rune es un equivalente para int32 y se usa para representar un caracter(letras, numeros, signos de puntuacion, emojis, etc)
+- float32 y float64 representan numeros de coma flotante(tambien llamados numeros reales) de 32 y 64 bits, respectivamente.
+- complex64 y complex128 son numeros complejos cuyas partes real e imaginaria  estan representadas por numeros reales de 32 y 64 bits-
+    - Un literal de numero complejo se escribe como en el siguiente ejemplo: 2.23 + 3i.
