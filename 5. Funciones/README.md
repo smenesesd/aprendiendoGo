@@ -1,0 +1,1 @@
+Las funciones permiten reutilizar partes de código cuya ejecución puede invocarse desde diversos puntos del programa.
