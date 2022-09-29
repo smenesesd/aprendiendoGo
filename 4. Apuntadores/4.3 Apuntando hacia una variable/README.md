@@ -12,4 +12,5 @@ p := &i
 ```
 Ya que &i retorna un valor del tipo *int, p será declarado como *int(apuntador a int) y desde el principio apuntará al int i.
 
-img:
+![Figura 4.3](https://raw.githubusercontent.com/smenesesd/aprendiendoGo/master/img/ApuntVariable.png)
+```Figura 4.3:```Apuntador "p" apuntando a la direccion de memoria de "i"
