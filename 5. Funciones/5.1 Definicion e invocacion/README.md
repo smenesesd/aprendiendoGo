@@ -34,3 +34,17 @@ func Hola(nombre string, apellido string){
     fmt.Printf("¡Hola, %s %s!\n", nombre, apellido)
 }
 ```
+Para invocar una funcion con argumentos, entre los parentesis de la invocacion deberan situarse los valores para dichos argumentos, separados por comas, y ordenados segun la definicion en la cabecera:
+```go
+func main(){
+    Hola("Marta", "Garcia")
+    Hola("Juan", "Martinez")
+}
+```
+
+Salida estandar: 
+```go
+¡Hola, Marta Garcia!
+¡Hola, Juan Martinez!
+```
+Los valores a pasar como argumentos pueden ser valores literales, variables, u otras expresiones combinadas mediante operadores.
